@@ -4,9 +4,9 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-SENDER = "yourgmail@gmail.com"
-PASSWORD = "your_app_password"
-RECEIVER = "yourgmail@gmail.com"
+SENDER = "manbu3954@gmail.com"
+PASSWORD = "Project@1234"
+RECEIVER = "harikumar.p.2026@rkmshome.org"
 
 @app.route("/fault", methods=["POST"])
 def fault():
